@@ -20,10 +20,23 @@ A footer bar will be included with links to personal accounts - LinkedIn, Github
 
 Both the navigation and footer bar will be fixed on the screen. The navigation bar will be fixed at the top and the footer will be fixed at the bottom of the viewport so they are always visible as the visitors scrolls.
 
+### Responsive Design
+
+As visitors to the site may use a multitude of devices, the website has been designed to function well on screens of different sizes. 
+
+This has been accomplished by the use of CSS Flexbox, which allows control over the positioning of elements in response to a change in screen size. The website is designed to display correctly on a device as small as an iPhone 5/SE, which has a width of 320 pixels. When the screen width is over 1100 pixels, the elements of the website no longer expand to fill the space, instead leaving whitespace on the left and right of the screen.
 
 ### CV download
 
 Visitors to the website will have the ability to download a PDF copy of my CV. This will allow them to incorporate my information into their file systems or show other relevant persons without needing to visit the website repeatedly.
+
+### Accessibility
+
+Attention has been paid to the ability of visually-impaired individuals to use the website. This takes the form of providing alt-text for any images on the page, and ensuring that the contrast between elements on the page is high and friendly to color-blind visitors.
+
+Acessibility was checked using the Audit function built into the Google Chrome developer tools. Based on this audit a score of ??? was attained.
+
+SCREENSHOT HERE
 
 # Sitemap
 
@@ -57,7 +70,7 @@ Trello was used to track the progress of tasks within the project. A series of s
 ##### Day 1 start (17/09/2019)
 ![trello_1](./docs/trello_1.jpg)
 
-##### Day 1 end
-
+##### Day 2 start (18/09/2019)
+![trello_2](./docs/trello_2.jpg)
 
 work in progress...
