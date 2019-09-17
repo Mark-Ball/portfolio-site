@@ -1,0 +1,99 @@
+body {
+    margin: 0px;
+}
+
+nav {
+    background-color: rgb(167,167,167);
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    margin: 0px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav p {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav p:hover {
+    color: rgb(255, 226, 59);
+}
+
+h1 {
+    background-color: rgb(50,65,94);
+    border: 2px solid black;
+    color: white;
+    height: 60vh;
+    width: 80vw;
+    margin: 100px 100px 30px 100px;
+}
+
+h4 {
+    margin: 15px 10px;
+}
+
+.vignette p {
+    margin: 15px 10px;
+}
+
+.flex-centered {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-vignette {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.vignette {
+    height: 130px;
+    background-color:rgb(205,205,205);
+    border: 2px solid black;
+    flex-basis: 250px;
+    margin-bottom: 20px;
+}
+
+.vignette:hover {
+    background-color: rgb(180,180,180);
+}
+
+.logo-link {
+    height: 40px;
+    width: 40px;
+    margin: 0px 10px;
+}
+
+.right-align {
+    margin-right: 10px;
+    text-align: right;
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+}
+
+/* takes effect when the screen is above 500px */
+/* @media screen and (min-width: 500px) {
+    
+    body {
+        background-color: rgb(218, 206, 192);
+    }
+} */

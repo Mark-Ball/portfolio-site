@@ -50,4 +50,14 @@ HTML is used for the content of all webpages
 
 CSS is used for the styling and positioning of elements.
 
+# Project Management
+
+Trello was used to track the progress of tasks within the project. A series of screenshots representing a timeline of the project is provided below.
+
+##### Day 1 start (17/09/2019)
+![trello_1](./docs/trello_1.jpg)
+
+##### Day 1 end
+
+
 work in progress...
