@@ -8,6 +8,7 @@ nav {
     border-left: 2px solid black;
     border-right: 2px solid black;
     margin: 0px;
+    width: 300px;
 
     display: flex;
     justify-content: space-around;
@@ -24,13 +25,20 @@ nav p:hover {
     color: rgb(255, 226, 59);
 }
 
+
 h1 {
     background-color: rgb(50,65,94);
     border: 2px solid black;
     color: white;
-    height: 60vh;
     width: 80vw;
     margin: 100px 100px 30px 100px;
+}
+#home-banner h1 {
+    height: 60vh;
+}
+
+#banner h1 {
+    height: 30vh;
 }
 
 h4 {
@@ -43,8 +51,31 @@ h4 {
 
 .flex-centered {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+}
+
+.flex-image-beside-text {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.flex-image-beside-text p {
+    margin-bottom: 20px;
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+.flex-image {
+    max-height: 250px;
+    max-width: 500px;
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+.flex-image img {
+    width: 100%;
 }
 
 .flex-logo {
