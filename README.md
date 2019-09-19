@@ -53,6 +53,20 @@ Acessibility was checked using the Audit function built into the Google Chrome d
 
 ![Accessibility](./docs/accessibility_score.jpg)
 
+### Three Versions
+
+Three versions of the website have been produced and saved on different branches in Github. The versions are as follows:
+
+- Master branch with the base version
+- Dark branch with a version with a dark colour scheme
+- Animated branch with fonts that change colour
+
+### Subresource integrity
+
+Subresource integrity ensures that the files delivered to your web application do not have any unexpected content such as malicious code injected by a third party.
+
+Subresource integrity has been achieved by creating a hash using sha384 and using this hash as the value of the integrity attribute of our link tag. 
+
 # Sitemap
 
 The website simply has all pages link to each other via the navigation bar. As more pages are added, for example when more projects are added, each will be moved to their own page. However, given the fact that the website only has four pages, it is feasible for each page to link to each other page.
@@ -88,4 +102,5 @@ Trello was used to track the progress of tasks within the project. A series of s
 ##### Day 2 start (18/09/2019)
 ![trello_2](./docs/trello_2.jpg)
 
-work in progress...
+##### Day 4 start (20/09/2019)
+![trello_3](./docs/trello_3.jpg)
