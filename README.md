@@ -12,9 +12,20 @@ As a developer, the website itself functions as an exhibition of software develo
 
 # Functionality and Features
 
-### A consistent style
+### A Consistent Style
 
-The entire webpage is united using a consistent fonts, colours, and themes.
+All webpages are united using a consistent style, including components, fonts, colours, and themes:
+
+- The navigation bar, the banners with the name of the webpage, and the buttons to LinkedIn and Github are components which are on every page of the website.
+- The Poppins font is used for headers and Rubik is used for other text such as paragraphs. These sans-serif fonts were selected for their legibility and modern appearance.
+- The colour scheme of the website is blue and grey with heavy use of whitespace.
+- Use of fractal imagery in the banners of each page provide a unifying theme and appears futuristic. All fractal images were tinted blue to conform to the colour theme of the website.
+
+### Semantic HTML/CSS
+
+HTML and CSS elements have been named to enhance the readability of the code. For example, HTML tags such as nav, p, and footer have been used and comments have been added to the HTML document to describe the meaning of each block of code.
+
+Additionally, the classes and id's used in CSS have been named in a way which is intended to enhance readability. For example the class 'flex-centered' includes the name 'flex' because it creates a flexbox using display: flex, and it centers the content which is childed to it using justify-content: center and align-items: center.
 
 ### Navigation and footer bars
 
@@ -28,15 +39,17 @@ As visitors to the site may use a multitude of devices, the website has been des
 
 This has been accomplished by the use of CSS Flexbox, which allows control over the positioning of elements in response to a change in screen size. The website is designed to display correctly on a device as small as an iPhone 5/SE, which has a width of 320 pixels. When the screen width is over 1100 pixels, the elements of the website no longer expand to fill the space, instead leaving whitespace on the left and right of the screen.
 
+By checking that components are displaying correctly on the smallest smartphones and wide screens such as desktop monitors, the website is viewable by the widest audience.
+
 ### CV download
 
 Visitors to the website will have the ability to download a PDF copy of my CV. This will allow them to incorporate my information into their file systems or show other relevant persons without needing to visit the website repeatedly.
 
 ### Accessibility
 
-Attention has been paid to the ability of visually-impaired individuals to use the website. This takes the form of providing alt-text for any images on the page, and ensuring that the contrast between elements on the page is high and friendly to color-blind visitors.
+Attention has been paid to the ability of visually-impaired individuals to use the website. This takes the form of providing alt-text for any images on the page, and ensuring that the contrast between elements on the page is high and does not use a colour scheme which would be a problem for color-blind visitors (e.g. red-green colour-blindness).
 
-Acessibility was checked using the Audit function built into the Google Chrome developer tools. Separate audits were conducted for all four webpages. Based on this audit, scores of 100 were attained for all webpages.
+Acessibility was checked using the Audit function built into the Google Chrome developer tools. Separate audits were conducted for all four webpages. Audit scores of 100 were attained for all webpages.
 
 ![Accessibility](./docs/accessibility_score.jpg)
 
