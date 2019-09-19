@@ -39,6 +39,8 @@ h1 {
 
 p {
     font-family: Rubik, sans-serif;
+    margin: 10px 10px;
+    text-align: justify;
 }
 
 #home-banner h1 {
@@ -51,8 +53,8 @@ p {
     align-items: center;
 }
 
-#banner h1 {
-    background-image: url("/images/fractal_2.jpg");
+#projects-banner h1 {
+    background-image: url("/images/fractal_2_tinted.jpg");
     background-size: cover;
     height: 30vh;
 
@@ -61,7 +63,27 @@ p {
     align-items: center;
 }
 
-h4 {
+#blog-banner h1 {
+    background-image: url("/images/fractal_3_tinted.jpg");
+    background-size: cover;
+    height: 30vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cv-banner h1 {
+    background-image: url("/images/fractal_2_tinted.jpg");
+    background-size: cover;
+    height: 30vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2, h3, h4 {
     font-family: Poppins;
     margin: 15px 10px;
 }
