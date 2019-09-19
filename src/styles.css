@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Rubik&display=swap');
+
 body {
     margin: 0px;
 }
 
 nav {
-    background-color: rgb(167,167,167);
+    background-color: rgb(50,65,94);
     border-bottom: 2px solid black;
     border-left: 2px solid black;
     border-right: 2px solid black;
@@ -17,6 +19,7 @@ nav {
 
 nav p {
     color: white;
+    font-family: Poppins, sans-serif;
     font-size: 16px;
     font-weight: bold;
 }
@@ -27,21 +30,39 @@ nav p:hover {
 
 
 h1 {
-    background-color: rgb(50,65,94);
     border: 2px solid black;
     color: white;
+    font-family: Poppins, sans-serif;
     width: 80vw;
     margin: 100px 100px 30px 100px;
 }
+
+p {
+    font-family: Rubik, sans-serif;
+}
+
 #home-banner h1 {
+    background-image: url("/images/fractal_tinted.jpg");
+    background-size: cover;
     height: 60vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #banner h1 {
+    background-image: url("/images/fractal_2.jpg");
+    background-size: cover;
     height: 30vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h4 {
+    font-family: Poppins;
     margin: 15px 10px;
 }
 

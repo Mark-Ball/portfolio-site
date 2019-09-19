@@ -12,13 +12,15 @@ As a developer, the website itself functions as an exhibition of software develo
 
 # Functionality and Features
 
-### Fixed navigation and footer bars
+### A consistent style
 
-The site will include a navigation bar, which will include links to the other main pages of the website - home, projects, blog, and CV - on each page. This will enable users to easily navigate the site without needing to scroll to the top of the page when they wish to access different areas of the site.
+The entire webpage is united using a consistent fonts, colours, and themes.
 
-A footer bar will be included with links to personal accounts - LinkedIn, Github, and email. This will allow visitors to view additional information such as technology projects and to get in contact with me if they wish.
+### Navigation and footer bars
 
-Both the navigation and footer bar will be fixed on the screen. The navigation bar will be fixed at the top and the footer will be fixed at the bottom of the viewport so they are always visible as the visitors scrolls.
+The site will include a navigation bar, which will include links to the other main pages of the website - home, projects, blog, and CV - on each page. The navigation bar both informs visitors of the other pages available on the website, and allows them a way to visit them.
+
+A footer bar will be included with links to professional accounts - LinkedIn and Github - as well as a link which will open an email message to my email address. This will allow visitors to view additional information such as my career prior to tech, personal projects, and allow them to get in contact with me if they wish.
 
 ### Responsive Design
 
@@ -34,9 +36,9 @@ Visitors to the website will have the ability to download a PDF copy of my CV. T
 
 Attention has been paid to the ability of visually-impaired individuals to use the website. This takes the form of providing alt-text for any images on the page, and ensuring that the contrast between elements on the page is high and friendly to color-blind visitors.
 
-Acessibility was checked using the Audit function built into the Google Chrome developer tools. Based on this audit a score of ??? was attained.
+Acessibility was checked using the Audit function built into the Google Chrome developer tools. Separate audits were conducted for all four webpages. Based on this audit, scores of 100 were attained for all webpages.
 
-SCREENSHOT HERE
+![Accessibility](./docs/accessibility_score.jpg)
 
 # Sitemap
 
