@@ -116,7 +116,6 @@ h2, h3, h4 {
 }
 
 .flex-image {
-    /* max-height: 250px; */
     max-width: 500px;
     flex-basis: 300px;
     flex-grow: 1;
