@@ -1,6 +1,6 @@
-# Mark Ball Portfolio website - T1A3
+# Mark Ball Portfolio Website - T1A3
 
-Portfolio website: TBC
+Website: https://focused-agnesi-f7e763.netlify.com/
 
 Github: https://github.com/Mark-Ball/portfolio-site
 
@@ -65,7 +65,7 @@ Three versions of the website have been produced and saved on different branches
 
 Subresource integrity ensures that the files delivered to your web application do not have any unexpected content such as malicious code injected by a third party.
 
-Subresource integrity has been achieved by creating a hash using sha384 and using this hash as the value of the integrity attribute of our link tag. 
+Subresource integrity has been achieved by creating a hash using sha512 and using this hash as the value of the integrity attribute of our link tag. 
 
 # Sitemap
 

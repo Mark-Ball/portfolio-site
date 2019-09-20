@@ -17,14 +17,15 @@ nav {
     align-items: center;
 }
 
-nav p {
+a {
     color: white;
     font-family: Poppins, sans-serif;
     font-size: 16px;
     font-weight: bold;
+    text-decoration: none;
 }
 
-nav p:hover {
+a:hover {
     color: rgb(255, 226, 59);
 }
 
@@ -185,11 +186,3 @@ h2, h3, h4 {
 #download-button:hover {
     color: rgb(255, 226, 59);
 }
-
-/* takes effect when the screen is above 500px */
-/* @media screen and (min-width: 500px) {
-    
-    body {
-        background-color: rgb(218, 206, 192);
-    }
-} */
