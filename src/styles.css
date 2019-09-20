@@ -178,8 +178,10 @@ h2, h3, h4 {
 }
 
 #download-button {
+    color: black;
     font-family: Poppins, sans-serif;
     font-size: 40px;
+    margin-bottom: 20px;
     text-align: center;
 }
 

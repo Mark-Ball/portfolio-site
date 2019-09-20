@@ -14,16 +14,16 @@ As a developer, the website itself functions as an exhibition of software develo
 
 ### A Consistent Style
 
-All webpages are united using a consistent style, including components, fonts, colours, and themes:
+All webpages use a consistent style, including components, fonts, colours, and themes:
 
 - The navigation bar, the banners with the name of the webpage, and the buttons to LinkedIn and Github are components which are on every page of the website.
 - The Poppins font is used for headers and Rubik is used for other text such as paragraphs. These sans-serif fonts were selected for their legibility and modern appearance.
 - The colour scheme of the website is blue and grey with heavy use of whitespace.
-- Use of fractal imagery in the banners of each page provide a unifying theme and appears futuristic. All fractal images were tinted blue to conform to the colour theme of the website.
+- Use of futuristic imagery in the banners of each page provide a unifying theme and appears futuristic. All fractal images were tinted blue to conform to the colour theme of the website.
 
-### Semantic HTML/CSS
+### Semantic HTML
 
-HTML and CSS elements have been named to enhance the readability of the code. For example, HTML tags such as nav, p, and footer have been used and comments have been added to the HTML document to describe the meaning of each block of code.
+HTML elements have been named to enhance the readability of the code. For example, HTML tags such as nav, p, and footer have been used and comments have been added to the HTML document to describe the meaning of each block of code.
 
 Additionally, the classes and id's used in CSS have been named in a way which is intended to enhance readability. For example the class 'flex-centered' includes the name 'flex' because it creates a flexbox using display: flex, and it centers the content which is childed to it using justify-content: center and align-items: center.
 
@@ -57,9 +57,9 @@ Acessibility was checked using the Audit function built into the Google Chrome d
 
 Three versions of the website have been produced and saved on different branches in Github. The versions are as follows:
 
-- Master branch with the base version
-- Dark branch with a version with a dark colour scheme
-- Animated branch with fonts that change colour
+- 'master' branch with the base version
+- 'dark' branch with a version with a dark colour scheme
+- 'no-graphics' branch with the banner graphics removed
 
 ### Subresource integrity
 
@@ -86,11 +86,10 @@ The target audience for the website falls into two categories, which may overlap
 The website is intended as a showcase of my abilities as a software developer and designer. The most likely use of the website is to link alongside a traditional application for employment as evidence of ability. Additionally, employers or those leading other projects may chance upon the website and consider me for employment or inclusion in their projects.
 
 # Tech stack
-The website uses primarily HTML and CSS.
 
-HTML is used for the content of all webpages
-
-CSS is used for the styling and positioning of elements.
+- HTML is used for the content of all webpages
+- CSS is used for the styling and positioning of elements.
+- Netlify is used for web-hosting.
 
 # Project Management
 
@@ -104,3 +103,5 @@ Trello was used to track the progress of tasks within the project. A series of s
 
 ##### Day 4 start (20/09/2019)
 ![trello_3](./docs/trello_3.jpg)
+
+##### Day 5 start (21/09/2019)
