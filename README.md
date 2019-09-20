@@ -61,15 +61,19 @@ Three versions of the website have been produced and saved on different branches
 - 'dark' branch with a version with a dark colour scheme
 - 'no-graphics' branch with the banner graphics removed
 
+Alternate versions can be viewed by typing 'git checkout {branch-name}' in the terminal. For example to view the 'dark' branch, type:
+
+>git checkout dark
+
 ### Subresource integrity
 
 Subresource integrity ensures that the files delivered to your web application do not have any unexpected content such as malicious code injected by a third party.
 
-Subresource integrity has been achieved by creating a hash using sha512 and using this hash as the value of the integrity attribute of our link tag. 
+Subresource integrity has been achieved by creating a hash using sha512 and using this hash as the value of the integrity attribute of our link tag. This ensures that styles.css will only load if it is identical to its state when the sha512 hash was created. If any changes have been made, the stylesheet will not be loaded and the HTML page will be displayed with no CSS styling.
 
 # Sitemap
 
-The website simply has all pages link to each other via the navigation bar. As more pages are added, for example when more projects are added, each will be moved to their own page. However, given the fact that the website only has four pages, it is feasible for each page to link to each other page.
+The website simply has all pages link to each other via the navigation bar. A sitemap for the website is presented below.
 
 ![Sitemap](./docs/sitemap.jpg)
 
@@ -78,12 +82,12 @@ The website simply has all pages link to each other via the navigation bar. As m
 
 # Target audience
 
-The target audience for the website falls into two categories, which may overlap:
+The target audience for the website falls into two categories:
 
 1. Employers
 2. Project Leads
 
-The website is intended as a showcase of my abilities as a software developer and designer. The most likely use of the website is to link alongside a traditional application for employment as evidence of ability. Additionally, employers or those leading other projects may chance upon the website and consider me for employment or inclusion in their projects.
+The website is intended as a showcase of my abilities as a software developer and designer. The most likely use of the website is to provide as evidence of ability alongside a traditional application for employment. Additionally, employers or those leading other projects may chance upon the website and consider me for employment or inclusion in their projects.
 
 # Tech stack
 
@@ -95,6 +99,25 @@ The website is intended as a showcase of my abilities as a software developer an
 
 Trello was used to track the progress of tasks within the project. A series of screenshots representing a timeline of the project is provided below.
 
+## Wireframes
+Wireframes were created for each page for mobile and desktop screen widths during the planning phase of the project. Considering that four HTML pages were required, this meant that eight wireframes were created in total. These are presented below.
+
+##### Homepage
+![wireframe_1](./docs/wireframe_home.jpg)
+
+##### Projects
+![wireframe_2](./docs/wireframe_projects.jpg)
+
+##### Blog
+![wireframe_3](./docs/wireframe_blog.jpg)
+
+#### CV
+![wireframe_4](./docs/wireframe_cv.jpg)
+
+## Trello
+
+Tasks were tracked using Trello. A series of screenshots representing the timeline of the project are presented below.
+
 ##### Day 1 start (17/09/2019)
 ![trello_1](./docs/trello_1.jpg)
 
@@ -105,3 +128,4 @@ Trello was used to track the progress of tasks within the project. A series of s
 ![trello_3](./docs/trello_3.jpg)
 
 ##### Day 5 start (21/09/2019)
+![trello_4](./docs/trello_4.jpg)
