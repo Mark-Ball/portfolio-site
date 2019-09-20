@@ -45,7 +45,7 @@ p, li {
 }
 
 #home-banner h1 {
-    background-image: url("/images/fractal_tinted.jpg");
+    background-color: rgb(50,65,94);
     background-size: cover;
     height: 60vh;
 
@@ -56,7 +56,7 @@ p, li {
 }
 
 #projects-banner h1 {
-    background-image: url("/images/fractal_2_tinted.jpg");
+    background-color: rgb(50,65,94);
     background-size: cover;
     height: 30vh;
 
@@ -67,7 +67,7 @@ p, li {
 }
 
 #blog-banner h1 {
-    background-image: url("/images/fractal_3_tinted.jpg");
+    background-color: rgb(50,65,94);
     background-size: cover;
     height: 30vh;
 
@@ -78,7 +78,7 @@ p, li {
 }
 
 #cv-banner h1 {
-    background-image: url("/images/fractal_4_tinted.jpg");
+    background-color: rgb(50,65,94);
     background-size: cover;
     height: 30vh;
 
