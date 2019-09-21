@@ -141,14 +141,10 @@ h2, h3, h4 {
 
 .vignette {
     height: 130px;
-    background-color:rgb(205,205,205);
+    background-color:rgb(50,65,94);
     border: 2px solid black;
     flex-basis: 250px;
     margin-bottom: 20px;
-}
-
-.vignette:hover {
-    background-color: rgb(180,180,180);
 }
 
 .logo-link {
