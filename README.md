@@ -81,8 +81,6 @@ Alternate versions can be viewed by typing 'git checkout {branch-name}' in the t
 
 >git checkout dark
 
-Note: it is currently not possible to view the other branches using 'git checkout' due to the inclusion of the interity attribute in the link tag for the stylesheet. This can be worked around by deleting the integrity attribute and value in line 7 of each html page.
-
 ### Subresource integrity
 
 Subresource integrity ensures that the files delivered to your web application do not have any unexpected content such as malicious code injected by a third party.
