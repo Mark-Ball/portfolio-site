@@ -18,15 +18,15 @@ The site will include a navigation bar, which will include links to the other ma
 
 The navigation bar resides at the top of each page so the user will always know where they can go on each page to navigate around the website. A yellow hover effect is used on the text for each page to provide feedback to the user that the feature is interactable. The fact that yellow features are interactable will be used repeatedly on the website.
 
-A footer bar will be included with links to professional accounts - LinkedIn and Github - as well as a link which will open an email message to my email address. This will allow visitors to view additional information such as my career prior to tech, personal projects, and allow them to get in contact with me if they wish.
+A footer bar is included with links to professional accounts - LinkedIn and Github - as well as a link which will open an email message to my email address. This will allow visitors to view additional information such as my career prior to tech, personal projects, and allow them to get in contact with me if they wish.
 
 ### Component 2: Banners
 
-Each page inclues a large banner beneath the navigation bar to inform the user what the content of the page will be.
+Each page includes a large banner beneath the navigation bar to inform the user what the content of the page will be.
 
-These banners draw attention partially because of their pure size. They are sized using view width and view height so they dominate the page no matter the size of the viewport.
+These banners draw attention partially because of their size. They are sized using view width and view height so they dominate the page no matter the size of the viewport.
 
-Furthermore, the banners are one of the few places where graphics are used on the website. This is done intentionally to draw the user's attention. The graphics used in the banners are futuristic designs which is an appropriate theme for the tech-sector.
+Furthermore, the banners are one of the few places where graphics are used on the website. This is done intentionally to draw the user's attention. The graphics used in the banners are futuristic designs which is an appropriate theme for a developer in the technology sector.
 
 ### Component 3: CV Download
 
@@ -34,7 +34,7 @@ Visitors to the website have the ability to download a PDF copy of my CV. This w
 
 A CV download button exists at the bottom of the CV page. The link is large, bolded text which is the only text of its type on the page. A yellow hover using the same styling as the navigation bar hover signals to the user that it is interactable.
 
-The text "DOWNLOAD CV" takes the imperative voice as if a command, and this represents a call to action on the website.
+The text "DOWNLOAD CV" takes the imperative voice as if a command, and this represents a call to action for the user.
 
 Lastly, the CV opens in a separate tab so the user does not lose their place on the website and can easily return (simply by clicking back to the tab) and continue engaging with the website.
 
@@ -53,7 +53,8 @@ All webpages use a consistent style, including components, fonts, colours, and t
 - The navigation bar, the banners with the name of the webpage, and the buttons to LinkedIn and Github are components which are on every page of the website.
 - The Poppins font is used for headers and Rubik is used for other text such as paragraphs. These sans-serif fonts were selected for their legibility and modern appearance.
 - The colour scheme of the website is blue with yellow accents and heavy use of whitespace.
-- Use of futuristic imagery in the banners of each page provide a unifying theme and appears futuristic. - All banner images were tinted blue to conform to the colour theme of the website.
+- Use of futuristic imagery in the banners of each page provide a unifying theme.
+- All banner images were tinted blue to conform to the colour theme of the website.
 
 ### Semantic HTML
 
@@ -65,16 +66,16 @@ Additionally, the classes and id's used in CSS have been named in a way which is
 
 As visitors to the site may use a multitude of devices, the website has been designed to function well on screens of different sizes. 
 
-This has been accomplished by the use of CSS Flexbox, which allows control over the positioning of elements in response to a change in screen size. The website is designed to display correctly on a device as small as an iPhone 5/SE, which has a width of 320 pixels. When the screen width is over 1100 pixels, the elements of the website no longer expand to fill the space, instead leaving whitespace on the left and right of the screen.
+This has been accomplished by the use of CSS Flexbox, which allows control over the positioning of elements in response to a change in screen size. The website is designed to display correctly on a device as small as an iPhone 5/SE, which has a width of 320 pixels. When the screen width is over 900 pixels, the elements of the website no longer expand to fill the space, instead leaving whitespace on the left and right of the screen.
 
 By checking that components are displaying correctly on the smallest smartphones and wide screens such as desktop monitors, the website is viewable by the widest audience.
 
 ### Three Versions
 
-Three versions of the website have been produced and saved on different branches in Github. The versions are as follows:
+Three versions of the website have been produced and saved on different branches in Github. These versions are:
 
 - 'master' branch with the base version
-- 'dark' branch with a version with a dark colour scheme
+- 'dark' branch with a dark colour scheme
 - 'no-graphics' branch with the banner graphics removed
 
 Alternate versions can be viewed by typing 'git checkout {branch-name}' in the terminal. For example to view the 'dark' branch, type:
@@ -85,7 +86,7 @@ Alternate versions can be viewed by typing 'git checkout {branch-name}' in the t
 
 Subresource integrity ensures that the files delivered to your web application do not have any unexpected content such as malicious code injected by a third party.
 
-Subresource integrity has been achieved by creating a hash using sha512 and using this hash as the value of the integrity attribute of our link tag. This ensures that styles.css will only load if it is identical to its state when the sha512 hash was created. If any changes have been made, the stylesheet will not be loaded and the HTML page will be displayed with no CSS styling.
+This has been achieved by creating a hash using sha512 and using this hash as the value of the integrity attribute of our link tag. This ensures that styles.css will only load if it is identical to its state when the sha512 hash was created. If any changes have been made, the stylesheet will not be loaded and the HTML page will be displayed with no CSS styling.
 
 # Sitemap
 
@@ -120,8 +121,6 @@ The website is intended as a showcase of my abilities as a software developer an
 - Netlify is used for web-hosting.
 
 # Project Management
-
-Trello was used to track the progress of tasks within the project. A series of screenshots representing a timeline of the project is provided below.
 
 ## Wireframes
 Wireframes were created for each page for mobile and desktop screen widths during the planning phase of the project. Considering that four HTML pages were required, this meant that eight wireframes were created in total. These are presented below.
