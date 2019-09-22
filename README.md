@@ -95,6 +95,14 @@ The website simply has all pages link to each other via the navigation bar. A si
 
 # Screenshots
 
+##### Home page
+![screenshot_home](./docs/screenshot_home.jpg)
+
+##### Projects page
+![screenshot_projects](./docs/screenshot_projects.jpg)
+
+##### CV page
+![screenshot_cv](./docs/screenshot_cv.jpg)
 
 # Target audience
 
@@ -147,3 +155,4 @@ Tasks were tracked using Trello. A series of screenshots representing the timeli
 ![trello_4](./docs/trello_4.jpg)
 
 ##### Day 6 just before submitting (22/09/2019)
+![trello_5](./docs/trello_5.jpg)
